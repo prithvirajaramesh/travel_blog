@@ -10,20 +10,22 @@ export default function Main(props) {
 
     return (
 
+        <>
+            <div className="card_head">
+                <div className="Card_Image_head">
+                    <img src={props.img} className="Card_image" alt="imagecard" />
+                </div>
+                <div className="spacing"></div>
+                <div className="card_data">
+                    <div><span>{props.location} </span><a className="card_location" href={props.map}>view on google map</a></div>
+                    <h2 className="card_heading"><b>{props.title}</b></h2>
+                    <div className="card_date"><b>{props.date_s}-{props.date_e} </b></div>
+                    <p className="card_para">{props.para}</p>
+                </div>
 
-        <div className="card_head">
-            <div className="Card_Image_head">
-                <img src={props.img} className="Card_image" alt="imagecard" />
             </div>
-            <div className="spacing"></div>
-            <div className="card_data">
-                <div><span>{props.location} </span><a className="card_location" href={props.map}>view on google map</a></div>
-                <h2 className="card_heading"><b>{props.title}</b></h2>
-                <div className="card_date"><b>{props.date_s}-{props.date_e} </b></div>
-                <p className="card_para">{props.para}</p>
-            </div>
-            <hr/>
-        </div>
+            
+        </>
 
 
 
