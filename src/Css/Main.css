@@ -1,0 +1,43 @@
+.card_head{
+    display: flex;
+    margin: 2%;
+}
+
+.Card_image{
+    width: 125px;
+    height: 157px;
+    border-radius: 5px;
+}
+.card_data{
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0%;
+    /* width: 51%; */
+}
+.card_heading{
+    font-size: 25px;
+    margin: 0%;
+}
+.card_date{
+    font-size: 10.24px;
+}
+.card_para{
+    font-size: 10.24px;
+    /* width: 58%; */
+    color:#2B283A;
+    margin: 0%;
+    text-align: justify;
+}
+.card_location{
+    color: #918E9B;
+    font-size: 10.24px;
+    text-decoration: dashed;
+}
+.Card_Image_head{
+    flex-grow: 0.07;
+}
+.spacing{
+    width: 36px;
+}
